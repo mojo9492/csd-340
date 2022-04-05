@@ -1,0 +1,34 @@
+:root {
+    --primary-color: #3c275a;
+    --secondary-color: #453674;
+    --tertiary-color: #4f3674;
+    --accent-color: #d6a800;
+}
+body {
+    font-family: Oswald, Verdana, Arial, sans-serif;
+}
+
+#container {
+    margin: 50px 100px 0 100px;
+}
+
+h1, h2, h3, h4 {
+    background: var(--primary-color);
+    color: #fff;
+    border: 1px solid var(--accent-color);
+    padding: 10px
+}
+
+a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+a:hover {
+    background: var(--accent-color);
+    color: var(--tertiary-color);
+}
+
+a:visited {
+    color: var(--primary-color);
+}
