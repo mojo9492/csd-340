@@ -1,0 +1,66 @@
+h1 {
+    text-align: center;
+    font-family: Oswald, Verdana, Arial, sans-serif;
+}
+
+h3 {
+    font-weight: 500;
+}
+
+ol {
+    border: 1px solid red;
+    border-radius: 15px;
+    list-style-position: inside;
+    padding: 10px;
+}
+
+ul {
+    border: 1px dashed red;
+    border-radius: 15px;
+    list-style: upper-roman;
+    list-style-position: inside;
+    padding: 10px;
+}
+
+li {
+    font-weight: 300;
+}
+
+a {
+    font-family: Oswald, Verdana, Arial, sans-serif;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+#container {
+    display: inline;
+    align-content: center;
+    justify-content: center;
+}
+
+#container > div, div {
+    display: inline-block;
+    flex-flow: column nowrap;
+    width: 45%;
+    font-family: Oswald, Verdana, Arial, sans-serif;
+}
+
+.LeftList {
+    align-self: flex-start;
+}
+
+.RightList {
+    align-self: flex-end;
+}
+
+.Footer {
+    display: block;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 60%;
+    margin-bottom: 20px;
+}
