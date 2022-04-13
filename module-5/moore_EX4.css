@@ -1,0 +1,40 @@
+:root {
+    --second-color-translucent: rgba(247, 112, 24, 0.2);
+    --fourth-color: rgba(185,63, 8, 1);
+}
+
+body {
+    background: var(--second-color-translucent);
+}
+
+h1, h3 {
+    font-family: Oswald;
+    font-weight: 400;
+}
+
+img {
+    height: 350px;
+    width: 400px;
+}
+
+caption {
+    font-style: italic;
+    font-size: .75rem;
+}
+
+#container {
+    text-align: center;
+}
+
+#image-gallery {
+    display: grid;
+    grid-template-columns: 600px 600px 600px;
+    place-content: center;
+    margin-top: 10%;
+}
+
+#image-gallery > div {
+    border: 1px solid var(--fourth-color);
+    border-radius: 15px;
+    padding: 5px;
+}
