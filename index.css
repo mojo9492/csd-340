@@ -1,0 +1,88 @@
+body {
+  background: #dae2df;
+  color: #37393a;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #77b6ea;
+}
+
+h2 {
+  font-size: 1.64rem;
+  font-weight: bold;
+  color: #496f5d;
+  margin-left: 1em;
+}
+
+h3 {
+  font-size: 1.32rem;
+  font-weight: 400;
+  color: #37393a;
+}
+
+header {
+  text-align: center;
+}
+
+a {
+  color: #496f5d;
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover {
+  color: #de8f6e;
+  text-decoration: underline;
+}
+
+.portrait {
+  height: auto;
+  width: 36em;
+  max-width: 100%;
+}
+
+.hobby-img {
+  height: auto;
+  width: 12em;
+}
+
+.main-content {
+  display: flex;
+  flex-flow: column nowrap;
+  place-content: center;
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+.content {
+  display: flex;
+  flex-flow: column wrap;
+  place-items: flex-start;
+  margin: 0 auto;
+}
+
+.card-container {
+  display: flex;
+  flex-flow: row wrap;
+  place-content: center;
+}
+
+.card {
+  display: flex;
+  flex-flow: column nowrap;
+  border: 1px solid #37393a;
+  border-radius: 0.25rem;
+  box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.25);
+  font-size: 1rem;
+  text-align: center;
+  margin: 0 1rem 1rem 0;
+  padding: 0.5rem;
+  height: auto;
+  width: 20em;
+}
+
+ul {
+  text-align: left;
+}
+
+/*# sourceMappingURL=index.css.map */
